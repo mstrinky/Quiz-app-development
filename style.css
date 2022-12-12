@@ -35,13 +35,13 @@ body{
 }
 
 
-.button{
+.btn{
     width: 60%;
     margin-top: 68px;
     margin-left: 169px!important;
 }
  
-.button button{
+.btn button{
     font-size: 20px;
     font-weight: 600;
     background-color: tomato;
@@ -54,18 +54,18 @@ body{
     transition: 0.2s ease-in-out;
 }  
 
-.button button:hover{
+.btn button:hover{
     background-color: rgb(29,194,194);
 }
 
 /* 2nd page  */
 
-.rulesbox.activeinfo{
+/* .rulesbox.activeInfo{
 opacity: 1;
 z-index: 5;
 pointer-events: auto;
 transform: translate(-50%,-50%) scale(1);
-}
+} */
 
 .rulesbox{
     width: 320px;
@@ -77,8 +77,8 @@ transform: translate(-50%,-50%) scale(1);
     box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
     transform: translate(-50%, -50%);
     border-radius: 48px ;
-    opacity: 0;
-    pointer-events: none;
+    /* opacity: 0;
+    pointer-events: none; */
 }
 .ruleslist{
     width: 80%;
@@ -103,17 +103,17 @@ ol li{
     border:none;
     outline: none;
     color: #fff;
-    padding: 6px 25px;
+    padding: 10px 25px;
     cursor: pointer;
    transition: 0.2s ease-in-out;
-   margin-top: 50px;
+   margin-top: 103px;
 }
 .exit-button{
     border-radius: 0px 47px 0px 46px;
 }
 .continue-button{
     border-radius: 57px 0px 46px 0px;
-    margin-left: 36px;
+    margin-left: 43px;
 }
 .buttons button:hover{
     background-color: rgb(29,194,194);
