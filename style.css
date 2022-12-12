@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #f1f1f1;
+   
+}
+.myquizapp{
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 48px ;
+}
+ 
+.img img{
+   width: 100%;
+      
+}
+.text{
+    width: 90%;
+    margin: auto;
+}
+.text h3{
+    margin-top: 20px;
+}
+.button{
+    width: 60%;
+    margin-top: 23px;
+    margin-left: 170px!important;
+}
+ 
+.button button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 6px 25px;
+    cursor: pointer;
+    border-radius: 57px 0px 51px 0px;
+    transition: 0.2s ease-in-out;
+}  
+
+.button button:hover{
+    background-color: rgb(29,194,194);;
+}
+   
