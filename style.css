@@ -104,4 +104,118 @@ ol li{
 .buttons button:hover{
     background-color: rgb(29,194,194);
 }
-   
+.question{
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 48px ;
+}
+.questionheader{
+    position: relative;
+    z-index: 2;
+    height: 70px;
+    padding: 0 30px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.questionheader .title{
+    font-size: 15px;
+    font-weight: 600;
+}
+.timecount{
+    color: #004085;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+    height:24px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 125px;
+}
+.second{
+    font-size: 18px;
+    font-weight: 500;
+    height: 26px;
+    width: 45px;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 26px;
+    text-align: center;
+    background: #343a40;
+    border: 1px solid #343a40;
+    user-select: none;
+}
+.timelines{
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: #007bff;
+}
+.section{
+    padding: 25px 30px 20px 30px ;
+    background: #fff;
+}
+.text{
+    font-size: 25px;
+    font-weight: 600;
+}
+.myoption{
+    padding: 20px 0px ;
+    display: block;
+}
+.options{
+    background: aliceblue;
+    border: 1px solid#84c5fe;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 17px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options:hover{
+    color: #004085;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+}
+footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+}
+.total-que{
+    /* padding-bottom: 15px; */
+    padding-left: 30px;
+    padding-top: 20px;
+}
+footer button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 25px;
+    outline: none;
+    border: none;
+    border-radius: 57px 0px 51px 0px;
+    box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
+    background: tomato;
+    cursor: pointer;
+    color: #f1f1f1;
+    transition: all 0.3s ease;
+    margin-top: 32px;
+}
+footer .nextbtn:hover{
+    background-color: rgb(29,194,194);
+}
