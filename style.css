@@ -6,7 +6,7 @@
 }
 body{
     background-color: #f1f1f1;
-   
+    background-color: red;
 }
 .myquizapp{
     width: 320px;
@@ -21,8 +21,10 @@ body{
 }
  
 .img img{
-   width: 100%;
-      
+   width: 80%;
+   /* border: 2px solid yellow; */
+      margin-left: 25px;
+      border-radius: 25px;
 }
 .text{
     width: 90%;
@@ -31,10 +33,12 @@ body{
 .text h3{
     margin-top: 20px;
 }
+
+
 .button{
     width: 60%;
-    margin-top: 23px;
-    margin-left: 170px!important;
+    margin-top: 68px;
+    margin-left: 169px!important;
 }
  
 .button button{
@@ -55,6 +59,14 @@ body{
 }
 
 /* 2nd page  */
+
+.rulesbox.activeinfo{
+opacity: 1;
+z-index: 5;
+pointer-events: auto;
+transform: translate(-50%,-50%) scale(1);
+}
+
 .rulesbox{
     width: 320px;
     height: 580px;
@@ -65,6 +77,8 @@ body{
     box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
     transform: translate(-50%, -50%);
     border-radius: 48px ;
+    opacity: 0;
+    pointer-events: none;
 }
 .ruleslist{
     width: 80%;
@@ -164,7 +178,7 @@ ol li{
     padding: 25px 30px 20px 30px ;
     background: #fff;
 }
-.text{
+.text1{
     font-size: 25px;
     font-weight: 600;
 }
