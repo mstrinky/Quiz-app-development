@@ -10,13 +10,16 @@
 //     rulesbox.classList.remove("activeInfo");
 // }
 
-const startButton = document.getElementById("start").addEventListener('click',function(){
-    window.location.href='page1.html';
-})
-// const exitButton = document.getElementById("exit").addEventListener('click',function(){
-//     window.location.href='index.html';
-    
-// })
-// const continueButton = document.getElementById("continue").addEventListener('click',function(){
-//     window.location.href='page3.html';
-// })
+
+function startQuiz (){
+    window.location.href="page1.html";
+}
+function continu (){
+   window.location.href="page3.html";
+  
+}
+function exit (){
+    window.location.href="index.html";
+}
+
+
